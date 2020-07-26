@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    color: navy;
+}
+.inpt{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inpt > input{
+
+    width: 30%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+::placeholder{
+
+    font-size: 25px;
+    color: rgb(102, 97, 97);
+}
+
+.additem{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(16, 79, 151);
+    border: 1px solid crimson ;
+    height: 40px;
+}
+.additem:hover{
+
+    color: black;
+    background-color: rgb(149, 192, 240);
+    border: 1px solid black ;
+
+}
+.li1{
+
+    
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 25px;
+    list-style-type: decimal;
+    
+}
+.btn{
+    background-color: thistle;
+    color: black;
+    font-size: 25px;
+    margin-left: 20px ;
+    border: 1px solid white;
+
+}
+.btn:hover{
+    background-color: turquoise;
+    color: white;
+    border-color: black;
+}
